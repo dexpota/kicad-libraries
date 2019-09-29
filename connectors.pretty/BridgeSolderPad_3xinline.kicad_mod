@@ -1,11 +1,11 @@
-(module BridgeSolderPad_3xinline (layer F.Cu) (tedit 5D5EB3C6)
+(module BridgeSolderPad_3xinline (layer F.Cu) (tedit 5D8FD371)
   (fp_text reference REF** (at -4 0 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value BridgeSolderPad_3xinline (at 0 11) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (pad 2 thru_hole custom (at 0 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
+  (pad 2 thru_hole custom (at 0 0) (size 1.524 1.524) (drill 1.25) (layers *.Cu *.Mask)
     (zone_connect 2)
     (options (clearance outline) (anchor circle))
     (primitives
@@ -17,7 +17,7 @@
          (xy -1 0) (xy -0.5 0) (xy 0 0.5) (xy 0 1.5) (xy -1 1.5)
 ) (width 0))
     ))
-  (pad 1 thru_hole custom (at 0 -5) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
+  (pad 1 thru_hole custom (at 0 -5) (size 1.524 1.524) (drill 1.25) (layers *.Cu *.Mask)
     (zone_connect 2)
     (options (clearance outline) (anchor circle))
     (primitives
@@ -29,7 +29,7 @@
          (xy -1 0) (xy -0.5 0) (xy 0 0.5) (xy 0 1.5) (xy -1 1.5)
 ) (width 0))
     ))
-  (pad 3 thru_hole custom (at 0 5) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
+  (pad 3 thru_hole custom (at 0 5) (size 1.524 1.524) (drill 1.25) (layers *.Cu *.Mask)
     (zone_connect 2)
     (options (clearance outline) (anchor circle))
     (primitives
